@@ -30,7 +30,7 @@ namespace Aula26 {
             foreach (Produto item in carrinho){
                 ValorTotal += item.Preco;
             } 
-            Console.WriteLine($"Valor total: {ValorTotal}");
+            Console.WriteLine($"Valor total: R$ {ValorTotal}");
             Console.ResetColor();
         }
 

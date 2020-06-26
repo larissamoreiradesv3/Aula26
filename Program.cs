@@ -25,8 +25,8 @@ namespace Aula26
             cart.Deletar(p2);
 
             //Substituição de produto 
-            Produto p6 = new Produto(6, "Borracha em Caneta", 3.50f);
-            cart.Alterar(2, p6);
+            Produto p6 = new Produto(3, "Borracha em Caneta", 3.50f);
+            cart.Alterar(3, p6);
 
             //Mostrar a Lista:
             cart.Listar();
